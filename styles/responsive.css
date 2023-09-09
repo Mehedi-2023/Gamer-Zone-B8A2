@@ -1,0 +1,147 @@
+@media screen and (max-width:500PX) {
+    .nav-conteiner{
+        flex-direction: column;
+    }
+    .nav-anchor{
+        flex-direction: column;   
+        gap: 10px;
+    }
+
+    /*nav responsive end here*/
+    
+    .banner-conteiner{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        padding: 30px;
+        margin-top: 120px;
+        order: 1;
+    }
+    .banner-content h1{
+        font-size: 50px;
+        font-weight: 800;
+        margin-top: 10px;
+        
+        
+    }
+    .banner-content h2{
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+    .banner-content P{
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+    .banner-img-content{
+        width: 100%;
+        order: 0;
+    }
+
+    /*header banner styles end here*/
+    .gamer-conteiner{
+        flex-direction: column;
+    }
+    .gamer-img-content{
+        width: 100%;
+    }
+    .gamer-content{
+        width: 100%;
+        text-align: center;
+    }
+    .gamer-content h1{
+        font-size: 30px;
+        font-weight: 700;
+        padding: 30px;
+    }
+    .gamer-content p{
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+    .gamer-purpose{
+        text-align: center;
+    }
+
+    /*online game responsive start here*/
+    .section-title{
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+    .section-description{
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .flex-conteiner{
+        flex-direction: column;
+    }
+    .flex-card{
+        padding: 0 60px;
+        width: 100%;
+    
+    }
+
+    /*flex box responsive end here*/
+    .game-play-conteiner{
+        flex-direction: column;
+    }
+    .game-play-content{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0 50px;
+    
+    }
+    .game-play-content h1{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px; /* 125% */
+    
+    
+    }
+    .game-play-content p{
+        font-size: 16px;
+        font-weight: 400;
+    
+    }
+    .game-play-img-content{
+        width: 100%;
+        padding-right: 50px;
+    
+    }
+    
+    .career-conteiner{
+        flex-direction: column;
+        margin: 100px  60px;
+      }
+
+      .career-content{
+        width: 100%;
+        margin-bottom: 80px;
+    
+    }
+    .career-content p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px; /* 166.667% */
+    
+    }
+
+    .career-img-content{
+        width: 100%;
+    
+    }
+    .grid-conteiner{
+    }
+    .game-card{
+     flex-basis: 60px
+  
+    }
+}

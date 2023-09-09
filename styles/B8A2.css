@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*header styles start here*/
+nav{
+    padding: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.nav-logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nav-logo img{
+    width: 80px;
+    height:40px;
+
+}
+.nav-logo h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+
+}
+span{
+    color: #FF42A5;
+}
+.nav-anchor{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.nav-anchor li{
+    list-style: none;
+
+
+}
+.btn-nav{
+    border-radius: 5px;
+    background-color: #0B02231A;
+    padding: 5px;
+    
+}
+.fa-brands{
+    color: red;
+}
+.fa-tiktok{
+    color: rgb(70, 67, 67);
+}
+.nav-anchor a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+/*nav styles end here*/
+
+/*banner styles start here*/
+.banner{
+    width: 100%;
+}
+
+.banner-conteiner{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    width: 50%;
+   background-image: url(../images/Group\ 14.png);
+    fill: linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
+    height: 600px;
+}
+
+.banner-content h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0B0223;
+    margin-top: 100px;
+    
+}
+.banner-content h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 95px;
+    font-weight: 800;
+
+}
+.banner-content p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+
+}
+.fa-regular{
+    width: 24px;
+    height: 24px;
+    color: #FF42A5; 
+}
+.fa-users{
+    width: 24px;
+    height: 24px;
+    color: #0B0223;
+}
+
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: none;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.banner-img-content{
+    width: 50%;
+}
+.banner-img-content img{
+   width: 100%;
+   height: 100%;
+
+}
+/*banner styles end here*/
