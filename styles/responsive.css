@@ -69,6 +69,7 @@
     }
 
     /*online game responsive start here*/
+
     .section-title{
         font-size: 30px;
         font-weight: 700;
@@ -109,7 +110,6 @@
     }
     .game-play-content p{
         font-size: 16px;
-        font-weight: 400;
     
     }
     .game-play-img-content{
@@ -117,6 +117,12 @@
         padding-right: 50px;
     
     }
+    .game-card p{
+        font-size: 12px;
+    
+    }
+
+    /* online game resonsive  end here*/
     
     .career-conteiner{
         flex-direction: column;
@@ -129,7 +135,7 @@
     
     }
     .career-content p{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 300;
         line-height: 20px; /* 166.667% */
     
@@ -139,10 +145,14 @@
         width: 100%;
     
     }
+
+    /* grid responsive end here*/
     .grid-conteiner{
     }
     .game-card{
      flex-basis: 60px
   
     }
+
+    /* footer responsive */
 }
